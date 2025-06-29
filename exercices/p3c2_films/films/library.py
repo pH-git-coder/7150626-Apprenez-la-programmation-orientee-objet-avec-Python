@@ -36,6 +36,9 @@ class Library:
 
         Note: On pourrait aussi utiliser une liste de compréhension ici.
         """
+        # Example de liste de compréhension
+        # films_lent = [film for film in self.films if film.where is not self]
+        
         films_lent = []
         for film in self.films:
             if film.where is not self:  # le film n'est pas dans la bibliothèque
