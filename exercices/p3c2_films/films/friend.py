@@ -53,6 +53,9 @@ class FriendCleaner:
 
         Note: On pourrait aussi utiliser une liste de compréhension ici.
         """
+        # Example de liste de compréhension
+        # result = [self.generate(data, library) for data in self.friends]
+        
         result = []
         for data in self.friends:
             friend = self.generate(data, library)
